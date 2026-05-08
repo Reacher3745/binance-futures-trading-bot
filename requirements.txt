@@ -1,0 +1,9 @@
+# Core HTTP library (stdlib urllib used for signing; requests for transport)
+requests>=2.31.0
+
+# urllib3 is a requests dependency but pinned for security
+urllib3>=2.0.0
+
+# Optional: makes the CLI pip-installable as a script (not required to run)
+# Uncomment if you want `pip install -e .` support:
+# click>=8.1
